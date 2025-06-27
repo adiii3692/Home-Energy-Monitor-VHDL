@@ -1,0 +1,19 @@
+LIBRARY ieee; 
+use ieee.std_logic_1164.all; 
+
+ENTITY PB_INVERTERS IS 
+	PORT 
+	(
+		pb_n : IN std_logic_vector(3 downto 0); 
+		pb : OUT std_logic_vector(3 downto 0)
+	); 
+END PB_INVERTERS; 
+
+ARCHITECTURE gates OF PB_INVERTERS is 
+
+BEGIN 
+
+pb <= not(pb_n); 
+
+END gates; 
+

@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'HVAC:HVAC_INST|\clk_divider:counter[23]'
+Slack : -3.608
+TNS   : -13.745
+
+Type  : Setup 'clkin_50'
+Slack : -2.600
+TNS   : -44.668
+
+Type  : Hold 'HVAC:HVAC_INST|\clk_divider:counter[23]'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Hold 'clkin_50'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'clkin_50'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Minimum Pulse Width 'HVAC:HVAC_INST|\clk_divider:counter[23]'
+Slack : -1.487
+TNS   : -5.948
+
+------------------------------------------------------------
