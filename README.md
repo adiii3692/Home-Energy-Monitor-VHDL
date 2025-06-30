@@ -50,3 +50,10 @@ The system simulates a smart HVAC controller that adjusts temperature based on i
 - Safety override for open doors/windows
 - Functional test mode with LED pass/fail indicator
 - Real-time visual feedback using LEDs and 7-segment displays
+
+## 📷 System Overview
+
+### 🔧 Home Energy Monitor Block Diagram (From Manual)
+
+![Home Energy Monitor Top Level Design](https://github.com/user-attachments/assets/7bd3bbe5-8b91-43b2-aacb-bdd3c482509a)
+*(Reference from ECE 124 Lab Manual)*
